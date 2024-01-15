@@ -3,9 +3,8 @@
 This website was created using html and css.
 I created this website to test my frontend skills when I was learning web development.
 
-<br>
 ![image](https://github.com/IbrahimBM2714/dummy-portfolio-website/assets/115867055/e84dda5b-add9-4060-b5c0-d9fbd3b15410)
-<br>
+
 If you want experience this for yourself, you can do so by downloading the code and running the website on your browser using the Live Server extension. For those of you who don't know about Live Server, it is an extension which can be downloaded inside of Vscode.
 ![image](https://github.com/IbrahimBM2714/dummy-portfolio-website/assets/115867055/c6f9fd71-b45a-437b-833d-21a977096466)
 <br>
