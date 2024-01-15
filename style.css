@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: rgb(243, 240, 240);
+  width: 10vw;
+  height: 100vh;
+  font-family: "Varela Round", sans-serif;
+}
+
+.sidebar nav {
+  padding: 20px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px 10px;
+  margin: 110px 0px;
+  cursor: pointer;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  background-color: rgb(243, 249, 243);
+  /* background-image: linear-gradient(
+    to right,
+    rgba(42, 42, 42, 1),
+    rgba(255, 63, 29, 1)
+  ); */
+  width: 90vw;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  /* background-color: rgb(243, 249, 243); */
+  background-image: linear-gradient(
+    to right,
+    rgba(42, 42, 42, 1),
+    rgba(255, 63, 29, 1)
+  );
+  color: white;
+  width: 80vw;
+  height: 65vh;
+  margin: 86px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 5px;
+}
+
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.devInfo .hello {
+  font-size: 70px;
+}
+
+.devInfo .name {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Unbounded", cursive;
+}
+
+.devInfo .about {
+  font-size: 40px;
+}
+
+.devInfo .goals {
+  font-size: 20px;
+}
+
+.devInfo .buttons {
+  margin-top: 20px;
+}
+
+.devInfo .buttons button {
+  padding: 8px;
+  border-width: 0;
+  /* border-color: gray; */
+  border-top-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.devInfo .buttons button:hover {
+  background-color: white;
+  color: cornflowerblue;
+}
+
+.devInfo .buttons a {
+  text-decoration: none;
+}
+
+.infoContainer .devPic img {
+  height: 65vh;
+}
+
+.contactMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: auto;
+  width: 45vw;
+  font-family: "Unbounded", cursive;
+  text-align: center;
+}
+
+.contactForm {
+  border: 2px solid rgb(157, 154, 154);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.contactForm h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.contactForm {
+  text-align: left;
+}
+
+.contactForm input {
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+.contactForm .email {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  font-size: 20px;
+}
+
+.contactForm .email input {
+  width: 50%;
+}
+
+.contactForm .email .form-text {
+  color: rgb(173, 170, 170);
+}
+
+.contactForm .phone {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contactForm .phone input {
+  width: 50%;
+}
+
+.contactForm .phone .form-text {
+  color: rgb(173, 170, 170);
+}
+
+.contactForm button {
+  padding: 8px;
+  border-width: 0;
+  border-top-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.contactForm button:hover {
+  background-color: white;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+}
+
+.introMain{
+  width: 90vw;
+  padding: 20px 20px;
+}
